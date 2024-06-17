@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "OmniSets Docs",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/dark.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/dark.png",
   "colors": {
     "primary": "#9F81F9",
     "light": "#9F81F9",
@@ -21,8 +21,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Email Support",
+      "url": "mailto:support@omnisets.com"
+    },
+    {
+      "name": "Live Chat",
+        "url": "https://www.omnisets.com/contact/live_support/"
     }
   ],
   "topbarCtaButton": {
@@ -57,15 +61,32 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Guides",
       "pages": [
-        "essentials/creating-flashcards",
-        "essentials/importing"
+        "guides/creating-flashcards",
+        "guides/importing",
+        "guides/exporting",
+        "guides/studyset-page",
+        "guides/study-mode",
+        "guides/studyplans",
+        "guides/sharing-studysets",
+        "guides/your-account",
+        "guides/user-settings",
+        "guides/quiz-mode",
+        "guides/docs"
       ]
     }
   ],
   "footerSocials": {
     "x": "https://x.com/intent/user?screen_name=omnisets",
-    "website": "https://www.reddit.com/r/omnisets/"
+    "website": "https://www.omnisets.com/",
+    "discord": "https://discord.com/invite/DnNmaxmeGd",
+    "youtube": "https://www.youtube.com/@omnisets/",
+    "instagram": "https://www.instagram.com/omnisets/"
+  },
+  "analytics": {
+    "ga4": {
+        "measurementId": "G-RCEX4NKHD3"
+    }
   }
 }
