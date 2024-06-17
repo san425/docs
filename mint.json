@@ -89,5 +89,9 @@
         "measurementId": "G-RCEX4NKHD3"
     }
   },
-  "backgroundImage": "/images/bg-img.png"
+  "backgroundImage": "/images/bg-img.png",
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  }
 }
