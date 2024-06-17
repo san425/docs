@@ -15,8 +15,8 @@
       "to": "#7245F7"
     },
     "background": {
-      "light": "#F4F4F4",
-      "dark": "#202225"
+      "light": "#FFF",
+      "dark": "#121212"
     }
   },
   "topbarLinks": [
@@ -88,5 +88,6 @@
     "ga4": {
         "measurementId": "G-RCEX4NKHD3"
     }
-  }
+  },
+  "backgroundImage": "/images/bg-img.png"
 }
