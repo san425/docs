@@ -67,14 +67,54 @@
         "guides/importing",
         "guides/exporting",
         "guides/studyset-page",
-        "guides/study-mode",
-        "guides/studyplans",
+        {
+          "group": "Study Mode",
+            "icon": "book",
+            "pages": [
+                "guides/study-mode",
+                "studymode/music-credits"
+            ]
+        },
+        {
+          "group": "StudyPlans",
+          "icon": "calendar",
+          "pages": [
+            "guides/studyplans",
+            "studyplans/migration-guide"
+          ]
+        },
         "guides/sharing-studysets",
         "guides/your-account",
         "guides/user-settings",
         "guides/quiz-mode",
         "guides/docs"
       ]
+    },
+    {
+      "group": "Feedback Portal",
+        "pages": [
+            "feedback-portal/general",
+            "feedback-portal/code-of-conduct",
+            "feedback-portal/creating-a-post"
+        ]
+    },
+    {
+      "group": "Advertisements",
+        "pages": [
+            "advertisements/ads-on-omnisets"
+        ]
+    },
+    {
+      "group": "Policies",
+        "pages": [
+          {
+            "group": "Experiments & Beta Products",
+            "icon": "vials",
+            "pages": [
+              "policies/experiments-and-beta-products/beta-ai-practice-problems"
+            ]
+          }
+        ]
     }
   ],
   "footerSocials": {
