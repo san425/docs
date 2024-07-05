@@ -10,16 +10,20 @@ icon: 'house'
 
 ## What the page looks like
 <Frame>
-    <img width="500px" src="/images/studyset-page.png" alt="StudySet Page" />
+    <img width="500px" className={"rounded-md"} src="/images/new_studyset_page.png" alt="StudySet Page" />
 </Frame>
 
 On the left, you will see a big carousel of all the cards in the set. You can click on the arrows to go to the next card or the previous card. You can also click on the card itself to flip it over and see the other side. Tapping on the star icon will start the current card.
 
-On the right, you will see a row of buttons. The first row represents all the modes this study set supports. The following row is different depending on who you are (owner, viewer). If you are the owner, you will have the option to edit the set. Otherwise, you will have the option to add it to your folders and fork (duplicate) the set.
+On the right, you will see a row of buttons. The row represents all the modes this studyset supports.
 
-<Info>
-    You can only __Fork__ a studyset if the owner has enabled it.
-</Info>
+Below that you will see the three dots button. Clicking on it will open a dropdown with more options. Here, you can print the studyset, add it to your folders, fork (copy), manage sharing and more.
+
+
+<Note>
+    - You can only fork (copy) a studyset if the owner has enabled it.
+    - The options available in the dropdown will change depending on whether you own the studyset, it's public or private, and if you're signed in.
+</Note>
 
 <Warning>
     The view of the studyset page will change depending on whether the set is a public or private link and if you own it or not. But generally speaking, the layout will be the same.
@@ -39,15 +43,15 @@ The Spell Mode is a written response only mode, where you have to spell out the 
 
 ### Quick Actions
 <Frame>
-    <img width="500px" src="/images/quick-actions.png" alt="Quick Actions" />
+    <img width="500px" src="/images/new_quick_actions.png" alt="Quick Actions" />
 </Frame>
-Quick Actions contain several buttons to perform actions and manage the studyset. Here are the actions in order:
+Quick Actions are a set of options that allow you to quickly perform actions on the studyset or with it. Here are the options available:
 
-- Only show starred cards in the carousel
-- Report studyset
-- Shuffle the cards
-- Enter flashcards mode (previously enhanced review mode)
-- Export flashcards (need to be signed in)
+- Add to Folder (if you're signed in)
+- Fork (copy) the studyset (if the owner has enabled it)
+- Export the studyset (if you're signed in)
+- Print the studyset (if you're signed in)
+- Report the studyset (if you're signed in)
 - Share studyset (need to be the owner)
 
 ### Sending a thanks to the creator
@@ -57,15 +61,14 @@ If you like a studyset, you can send a thanks to the creator by clicking on the 
 </Note>
 
 ### Printing the studyset
-You can print the studyset by clicking on the `Print` button. This will open up a system dialog that will show a preview of the studyset. You can then print it out or save it as a PDF.
-<Frame>
-    <img width="500px" src="/images/print-set.png" alt="Print button" />
-</Frame>
+You can print the studyset by clicking on the `Print` button available in the Quick Actions menu. This will open up a system dialog that will show a preview of the studyset. You can then print it out or save it as a PDF.
+
 
 ### Fullscreen Mode
-You can view the studyset in fullscreen mode by clicking on the `Fullscreen` button. This will make the carousel take up the entire screen, allowing you to focus on the cards.
+You can view the studyset in fullscreen mode by clicking on the `Fullscreen` button. This button is located on the top right of the carousel of cards and has a gear/settings icon.
+This will make the carousel take up the entire screen, allowing you to focus on the cards.
 <Frame>
-    <img width="500px" src="/images/print-set.png" alt="Fullscreen button" />
+    <img width="500px" src="/images/card_carousel_settings.png" alt="Fullscreen button" />
 </Frame>
 
 ### Your Learning Progress
@@ -91,22 +94,18 @@ For every studyset, you'll have the option to write a document that will be atta
 <Note>
     This is available for _every_ studyset.
 </Note>
-You can add the studyset to your folders by clicking on the `Add to Folder` button. This will open up a dialog where you can select which folder you want to add the studyset to.
+You can add the studyset to your folders by clicking on the `Add to Folder` option in the Quick Actions menu. This will open up a dialog where you can select which folder you want to add the studyset to.
 <Frame caption={"Button"}>
-    <img width="200px" src="/images/add-to-folder.png" alt="Add to Folder" />
+    <img width="200px" src="/images/addtofolderbtn.png" alt="Add to Folder" />
 </Frame>
 <div className={"mt-2"}>
 <Frame caption={"Dialog"}>
-    <img width="500px" src="/images/add-to-folder-modal.png" alt="Add to Folder Dialog" />
+    <img width="500px" src="/images/addtofoldermodal_studyset_page.png" alt="Add to Folder Dialog" />
 </Frame>
 </div>
 
 ### Practice Problems
-<Note>
-    This feature is in beta and may not be available for all studysets.
-</Note>
-
-You can practice problems by clicking on the `Practice Problems` button. Sometimes, regular flashcards aren't enough. Here, you can generate exercise problems to test your knowledge against complex problem-solving scenarios.
+You can practice problems by clicking on the `Exercise Problems` button. Sometimes, regular flashcards aren't enough. Here, you can generate exercise problems to test your knowledge against complex problem-solving scenarios.
 
 ### View Counter
 <Note>
