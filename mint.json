@@ -67,6 +67,7 @@
         "guides/importing",
         "guides/exporting",
         "guides/studyset-page",
+        "guides/editing-studysets",
         {
           "group": "Study Mode",
             "icon": "book",
