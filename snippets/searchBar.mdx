@@ -1,0 +1,33 @@
+export const MyComponent = () => (
+  <div>
+    <div
+      className="hidden mb-3 w-full lg:flex items-center justify-center text-sm text-center leading-6 rounded-xl py-3 pl-2.5 pr-3 shadow-sm text-gray-400 dark:text-white/50 bg-background-light dark:bg-background-dark dark:brightness-[1.1] dark:ring-1 dark:hover:brightness-[1.25] ring-1 ring-gray-400/20 hover:ring-gray-600/25 dark:ring-gray-600/30 dark:hover:ring-gray-500/30 focus:outline-primary"
+      onClick={() => {
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        script.innerHTML = `
+          window.$crisp=[];
+          window.CRISP_WEBSITE_ID="ba7c72e0-3735-45b9-a265-8935eb9bd531";
+          (function(){
+            d=document;
+            s=d.createElement("script");
+            s.src="https://client.crisp.chat/l.js";
+            s.async=1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+          })();
+          $crisp.push(["do", "chat:close"]);
+        `;
+        document.head.appendChild(script);
+
+        var x = document.getElementById("search-bar-entry");
+        if (x) {
+          x.click();
+        }
+      }}
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search ml-1 mr-3 flex-none text-gray-700 hover:text-gray-800 dark:text-gray-300 hover:dark:text-gray-200"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+      <span class="text-base">Search for something...</span>
+      <span class="ml-auto flex-none text-xs font-semibold">⌘K</span>
+    </div>
+  </div>
+);

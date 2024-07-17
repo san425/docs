@@ -34,7 +34,26 @@
     "url": "https://omnisets.com"
   },
   "tabs": [
+    {
+      "name": "Guides",
+      "url": "guides"
+    },
+    {
+      "name": "Feedback Portal",
+      "url": "feedback-portal"
+    },
+    {
+      "name": "Advertisements",
+      "url": "advertisements"
+    },
+    {
+      "name": "Billing",
+      "url": "billing"
+    }
   ],
+  "primaryTab": {
+    "name": "Home"
+  },
   "anchors": [
     {
       "name": "OmniSets",
@@ -47,14 +66,14 @@
       "url": "https://www.omnisets.com/feedback-portal/"
     },
     {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.com/invite/DnNmaxmeGd"
+      "name": "Our Socials",
+      "icon": "at",
+      "url": "https://bento.me/omnisets"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "",
       "pages": [
         "introduction",
         "quickstart"
@@ -70,10 +89,10 @@
         "guides/editing-studysets",
         {
           "group": "Study Mode",
-            "icon": "book",
+          "icon": "book",
             "pages": [
                 "guides/study-mode",
-                "studymode/music-credits"
+                "guides/studymode/music-credits"
             ]
         },
         {
@@ -81,7 +100,7 @@
           "icon": "calendar",
           "pages": [
             "guides/studyplans",
-            "studyplans/migration-guide"
+            "guides/studyplans/migration-guide"
           ]
         },
         "guides/sharing-studysets",
@@ -107,15 +126,10 @@
         ]
     },
     {
-      "group": "Policies",
+      "group": "Billing",
         "pages": [
-          {
-            "group": "Experiments & Beta Products",
-            "icon": "vials",
-            "pages": [
-              "policies/experiments-and-beta-products/beta-ai-practice-problems"
-            ]
-          }
+          "billing/refund-policy",
+            "billing/become-a-patron"
         ]
     }
   ],
@@ -134,6 +148,6 @@
   "backgroundImage": "/images/bg-img.png",
   "modeToggle": {
     "default": "dark",
-    "isHidden": true
+    "isHidden": false
   }
 }
