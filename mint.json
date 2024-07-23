@@ -16,7 +16,7 @@
     },
     "background": {
       "light": "#FFF",
-      "dark": "#121212"
+      "dark": "#151212"
     }
   },
   "topbarLinks": [
@@ -114,6 +114,7 @@
     {
       "group": "Feedback Portal",
         "pages": [
+            "feedback-portal/replying",
             "feedback-portal/general",
             "feedback-portal/code-of-conduct",
             "feedback-portal/creating-a-post"
